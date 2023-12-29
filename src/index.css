@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: neue-light;
+    src: url(./assets/NeueMontreal-Light.otf);
+  }
+  @font-face {
+    font-family: neue;
+    src: url(./assets/NeueMontreal-Regular.otf);
+  }
+  @font-face {
+    font-family: neue-medium;
+    src: url(./assets/NeueMontreal-Medium.otf);
+  }
+  @font-face {
+    font-family: neue-bold;
+    src: url(./assets/NeueMontreal-Bold.otf);
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply font-neue bg-gainsboro text-black scrollbar-hide;
+  }
+}
+
+@layer utilities {
+  .maxW {
+    @apply max-w-screen-xl mx-auto;
+  }
+  .padX {
+    @apply px-12 max-lg:px-8 max-md:px-6 max-sm:px-3;
+  }
+  /* select arrow icon  */
+  select {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+  }
+  .select-wrapper {
+    position: relative;
+  }
+  .select-wrapper::after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 13.1l-8-8 2.1-2.2 5.9 5.9 5.9-5.9 2.1 2.2z'/%3E%3C/svg%3E");
+    height: 11px;
+    width: 11px;
+    top: 50%;
+    transform: translateY(-100%);
+    right: 17px;
+    position: absolute;
+  }
+}
