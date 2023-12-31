@@ -3,8 +3,8 @@ import Reveal from "./Reveal";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-gainsboro py-12">
-      <div className="maxW padX">
+    <footer className="bg-black text-gainsboro">
+      <div className="maxW padX py-12">
         <div className="w-[60%] max-md:w-[70%] max-sm:w-[90%] max-xs:w-full">
           <Reveal>
             <div className="text-3xl font-neueMedium">
@@ -36,6 +36,9 @@ const Footer = () => {
             </form>
           </Reveal>
         </div>
+      </div>
+      <div className="padX py-3 text-sm text-gainsboro flex items-center justify-end">
+        <span className="font-neueMedium opacity-70">Iamfortunate 2023</span>
       </div>
     </footer>
   );

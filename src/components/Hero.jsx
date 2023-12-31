@@ -1,6 +1,5 @@
 import { useState } from "react";
 import PASSPORT from "../assets/passport.jpg";
-import { IoClose } from "react-icons/io5";
 import Header from "./Header";
 import Reveal from "./Reveal";
 
@@ -8,24 +7,6 @@ const Hero = () => {
   const [isMenu, setMenu] = useState(false);
   return (
     <div className="maxW padX pt-8 pb-12">
-      {isMenu && (
-        <div className="bg-gainsboro z-50 fixed top-0 left-0 right-0">
-          <div className="maxW padX py-8 flex items-start justify-between gap-x-2.5 font-neueMedium uppercase text-lg max-lg:text-base">
-            <div className="space-y-3">
-              <span className="font-neueBold text-xl">Fortunate Ogodu</span>
-              <div className="flex flex-col items-start space-y-1">
-                <span>Ogodu4tunate@gmail.com</span>
-                <span>Available for any frontend related gig👨‍💻</span>
-                <span>Based in Lagos,</span>
-                <span>Nigeria</span>
-              </div>
-            </div>
-            <span onClick={() => setMenu(!isMenu)} className="cursor-pointer">
-              close
-            </span>
-          </div>
-        </div>
-      )}
       <Header isMenu={isMenu} setMenu={setMenu} />
       <div className="font-neueMedium mt-16 uppercase">
         <div className="pb-2 text-[13vw] lg:text-[9rem] leading-[0.9] whitespace-nowrap">

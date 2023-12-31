@@ -23,7 +23,7 @@ const Reveal = ({ children, width = "fit-content" || "100%" }) => {
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 0.7, delay: 0.2 }}
+        transition={{ duration: 0.6, delay: 0.25 }}
       >
         {children}
       </motion.div>
