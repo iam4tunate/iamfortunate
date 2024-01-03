@@ -16,9 +16,9 @@ const Project = ({ id, name, note, techStack, images, url }) => {
           </div>
         </Reveal>
         <Reveal>
-          <p className="leading-relaxed w-[50%] max-lg:w-[70%] max-md:w-[90%] max-sm:w-full">
+          <div className="text-lg max-sm:text-base leading-relaxed w-[60%] max-lg:w-[70%] max-md:w-[90%] max-sm:w-full">
             {note}
-          </p>
+          </div>
         </Reveal>
         <Reveal>
           <ul className="flex items-center flex-wrap gap-x-2 gap-y-3 text-sm font-neueMedium opacity-90">
