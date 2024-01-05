@@ -32,14 +32,14 @@ export const projectsData = [
     images: [BU1, BU3, BU2, BU4],
     url: "https://b-uu.netlify.app/",
   },
-  {
-    id: "03",
-    name: "Sleekeasy",
-    note: "Step into a world of personalized fashion experiences with our innovative booking web app. Powered by React for dynamic interactions, Tailwind CSS for a polished and stylish design, our platform redefines how you engage with fashion services. Whether it's scheduling appointments, reserving exclusive items, or accessing personalized consultations, our user-friendly interface ensures a smooth and tailored booking process. Elevate your fashion journey with ease and sophistication, all at your fingertips.",
-    techStack: ["Tailwindcss", "ReactJS"],
-    images: [SLEEK1, SLEEK2, SLEEK4, SLEEK3],
-    url: "https://sleekeasy.netlify.app/",
-  },
+  // {
+  //   id: "03",
+  //   name: "Sleekeasy",
+  //   note: "Step into a world of personalized fashion experiences with our innovative booking web app. Powered by React for dynamic interactions, Tailwind CSS for a polished and stylish design, our platform redefines how you engage with fashion services. Whether it's scheduling appointments, reserving exclusive items, or accessing personalized consultations, our user-friendly interface ensures a smooth and tailored booking process. Elevate your fashion journey with ease and sophistication, all at your fingertips.",
+  //   techStack: ["Tailwindcss", "ReactJS"],
+  //   images: [SLEEK1, SLEEK2, SLEEK4, SLEEK3],
+  //   url: "https://sleekeasy.netlify.app/",
+  // },
   {
     id: "04",
     name: "Armourone",
