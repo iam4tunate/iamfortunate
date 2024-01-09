@@ -5,7 +5,7 @@ import SHOPPR from "./assets/shoppr.png";
 import EDIE from "./assets/edie.png";
 import BU from "./assets/B-U.png";
 import ARMOURONE from "./assets/Armourone.png";
-import ARMOURONE_COMINGSOON from "./assets/armourone-comingsoon.png";
+import ARMOURONE_COMINGSOON from "./assets/Armourone-comingsoon.png";
 
 export const webApps = [
   {
@@ -13,7 +13,6 @@ export const webApps = [
     img: FILMPULSE,
     name: "Filmpulse",
     desc: "A compelling React web app delivering comprehensive movie details",
-    // desc: "A compelling React web app delivering comprehensive movie details with nice visuals, movie credits, trailer and key informations for an enriched experience.",
     url: "https://filmpulse1.netlify.app/",
   },
   {
@@ -21,7 +20,6 @@ export const webApps = [
     img: BU,
     name: "B-U",
     desc: "A web app showcasing the latest trends & products of a fashion brand",
-    // desc: "A web app powered by Firebase, seamlessly showcasing the latest trends and products of a fashion brand with dynamic content and secure, real-time interactions.",
     url: "https://b-uu.netlify.app/",
   },
   {
@@ -29,7 +27,6 @@ export const webApps = [
     img: ARMOURONE,
     name: "Armourone",
     desc: "Armourone is a dealer in a wide range of bike, boat, and motorcycle parts",
-    // desc: "Armourone is a dealer in a wide range of bike, boat, and motorcycle parts. Stay connected with our seamless communication feature powered by EmailJS, allowing you to inquire about and order parts effortlessly",
     url: "https://armourone.netlify.app/",
   },
 ];
