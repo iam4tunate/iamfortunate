@@ -1,28 +1,11 @@
-// import FILMPULSE1 from "./assets/filmpulse1.png";
-// import FILMPULSE2 from "./assets/filmpulse2.png";
-// import FILMPULSE3 from "./assets/filmpulse3.png";
-
-// import AEMOURONE1 from "./assets/armourone1.png";
-// import AEMOURONE2 from "./assets/armorone2.png";
-
-// import SLEEK1 from "./assets/sleek1.png";
-// import SLEEK2 from "./assets/sleek2.png";
-// import SLEEK3 from "./assets/sleek3.png";
-// import SLEEK4 from "./assets/sleek4.png";
-
-// import BU1 from "./assets/BU1.png";
-// import BU2 from "./assets/BU2.png";
-// import BU3 from "./assets/BU3.png";
-// import BU4 from "./assets/BU4.png";
-
 import FILMPULSE from "./assets/filmpulse.png";
-import SLEEKEASY from "./assets//sleekeasy.png";
+import SLEEKEASY from "./assets/sleekeasy.png";
 import APPLE_CLONE from "./assets/apple-clone.png";
 import SHOPPR from "./assets/shoppr.png";
-import EDIE from "./assets/Eddie.png";
+import EDIE from "./assets/edie.png";
 import BU from "./assets/B-U.png";
 import ARMOURONE from "./assets/Armourone.png";
-import ARMOURONE_COMINGSOON from "./assets/Armourone-comingSoon.png";
+import ARMOURONE_COMINGSOON from "./assets/armourone-comingsoon.png";
 
 // export const projectsData = [
 //   {

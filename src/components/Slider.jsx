@@ -7,7 +7,7 @@ import "swiper/css";
 import Reveal from "./Reveal";
 import { RiExternalLinkLine } from "react-icons/ri";
 
-const Slider = ({ heading, data, webApp, website }) => {
+const Slider = ({ heading, data, website }) => {
   // eslint-disable-next-line no-unused-vars
   const [_, setInit] = useState();
   const [isBegin, setIsBegin] = useState(true);
@@ -58,7 +58,7 @@ const Slider = ({ heading, data, webApp, website }) => {
               slidesPerView: 1.2,
             },
             1024: {
-              slidesPerView: 1.5,
+              slidesPerView: 2,
             },
           }}
         >
@@ -112,7 +112,7 @@ const Slider = ({ heading, data, webApp, website }) => {
         </Swiper>
         <Reveal>
           {website && (
-            <div className="text-sm font-neueMedium opacity-60 px-2 pt-6">
+            <div className="text-sm font-neueMedium opacity-60 px-2 pt-6 max-sm:pt-0 sm:w-[80%] lg:w-[60%] w-full">
               Disclamer: We drew inspiration and incorporated design elements
               from the Figma community into some of these websites.
             </div>
