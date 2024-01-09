@@ -5,7 +5,7 @@ import SHOPPR from "./assets/shoppr.png";
 import EDIE from "./assets/edie.png";
 import BU from "./assets/B-U.png";
 import ARMOURONE from "./assets/Armourone.png";
-import ARMOURONE_COMINGSOON from "./assets/Armourone-comingsoon.png";
+import ARMOURONE_COMING from "./assets/Armourone-coming.png";
 
 export const webApps = [
   {
@@ -48,7 +48,7 @@ export const websites = [
   },
   {
     id: 3,
-    img: ARMOURONE_COMINGSOON,
+    img: ARMOURONE_COMING,
     name: "Armourone (pre-launch)",
     desc: "A pre-launch site for an engine parts dealership",
     url: "https://armourone-comingsoon.netlify.app/",
