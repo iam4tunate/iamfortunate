@@ -63,8 +63,8 @@ const Slider = ({ heading, data, website }) => {
           }}
         >
           {data.map((project) => (
-            <SwiperSlide key={project.id}>
-              <div className="">
+            <SwiperSlide key={project.id} className="">
+              <div className="h-fit">
                 <Reveal>
                   <img
                     src={project.img}
@@ -112,7 +112,7 @@ const Slider = ({ heading, data, website }) => {
         </Swiper>
         <Reveal>
           {website && (
-            <div className="text-sm font-neueMedium opacity-60 px-2 pt-6 max-sm:pt-0 sm:w-[80%] lg:w-[60%] w-full">
+            <div className="text-sm font-neueMedium opacity-60 px-2 pt-6 sm:w-[80%] lg:w-[60%] w-full">
               Disclamer: We drew inspiration and incorporated design elements
               from the Figma community into some of these websites.
             </div>
