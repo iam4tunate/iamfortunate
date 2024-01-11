@@ -6,7 +6,7 @@ const Header = ({ isMenu, setMenu }) => {
     <div className="bg-gainsboro maxW padX max-lg:fixed top-0 right-0 left-0 z-50 py-4 w-full">
       <Reveal width>
         <div className="flex items-start max-lg:items-center justify-between gap-x-2.5 font-neueMedium uppercase text-lg max-lg:text-base">
-          <div className="text-2xl max-lg:text-xl font-neueBold">
+          <div className="text-2xl max-lg:text-xl max-sm:text-lg font-neueBold">
             Fortunate Ogodu
           </div>
           <div className="max-lg:hidden flex flex-col">
@@ -18,7 +18,7 @@ const Header = ({ isMenu, setMenu }) => {
             <span>Nigeria</span>
           </div>
           <div
-            className="lg:hidden font-neueMedium capitalize text-xl cursor-pointer"
+            className="lg:hidden font-neueMedium capitalize text-xl max-sm:text-lg cursor-pointer"
             onClick={() => setMenu(!isMenu)}
           >
             {isMenu === false && (

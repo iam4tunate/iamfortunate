@@ -11,7 +11,7 @@ const Hero = () => {
     "https://drive.google.com/file/d/1l-7BieKzcuXazYwhz95_MS0x-w-btZhj/view?usp=drive_link";
 
   return (
-    <div className="maxW padX pt-8 pb-12">
+    <div className="maxW padX pt-8 pb-6">
       <Header isMenu={isMenu} setMenu={setMenu} />
       <div className="font-neueMedium mt-16 uppercase">
         <div className="pb-2 text-[13vw] lg:text-[9rem] leading-[0.9] whitespace-nowrap">
@@ -43,7 +43,7 @@ const Hero = () => {
             </span>
           </Reveal>
           <Reveal>
-            <div className="w-full mt-2 flex flex-col after:inline-block after:w-full after:h-0.5 after:bg-black text-xl md:text-2xl">
+            <div className="w-full flex flex-col after:inline-block after:w-full after:h-0.5 after:bg-black text-base md:text-xl">
               <span className="flex items-center gap-x-2">
                 <Link to={resumeLink} target="_blank" rel="noopener noreferrer">
                   See Resume

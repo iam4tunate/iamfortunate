@@ -22,7 +22,7 @@ const Slider = ({ heading, data, website }) => {
           <div className="text-2xl font-neueMedium">{heading}</div>
         </Reveal>
         <Reveal>
-          <div className="flex items-center gap-x-5 max-sm:gap-x-3 z-10">
+          <div className="flex items-center gap-x-5 max-sm:gap-x-2 z-10">
             <span
               ref={prevRef}
               className={`${isBegin && "opacity-20"} py-2 px-2 cursor-pointer`}
@@ -113,7 +113,7 @@ const Slider = ({ heading, data, website }) => {
         <Reveal>
           {website && (
             <div className="text-sm font-neueMedium opacity-60 px-2 pt-6 sm:w-[80%] lg:w-[60%] w-full">
-              Disclamer: We drew inspiration and incorporated design elements
+              Disclamer: I drew inspiration and incorporated design elements
               from the Figma community into some of these websites.
             </div>
           )}

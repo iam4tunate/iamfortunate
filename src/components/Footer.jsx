@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-gainsboro">
       <div className="py-4 maxW padX grid grid-cols-3 items-center max-lg:grid-cols-2 max-sm:grid-cols-1 gap-x-8 max-lg:gap-y-5 max-sm:gap-y-7 max-sm:px-6 text-sm uppercase">
-        <div className="text-lg">
+        <div className="text-lg font-neueMedium">
           <Reveal>I&apos;d Love to hear from you.</Reveal>
         </div>
 
@@ -24,17 +24,17 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="after:w-full after:h-[1px] after:inline-block after:bg-gainsboro flex flex-col gap-y-0.5">
-                <Link to={resumeLink} target="_blank" rel="noopener noreferrer">
-                  Resume
-                </Link>
-              </li>
-              <li className="after:w-full after:h-[1px] after:inline-block after:bg-gainsboro flex flex-col gap-y-0.5">
                 <Link
                   to={whatsappLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Whatsapp
+                </Link>
+              </li>
+              <li className="after:w-full after:h-[1px] after:inline-block after:bg-gainsboro flex flex-col gap-y-0.5">
+                <Link to={resumeLink} target="_blank" rel="noopener noreferrer">
+                  Resume
                 </Link>
               </li>
             </ul>
