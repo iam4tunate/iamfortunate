@@ -1,10 +1,15 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import PASSPORT from "../assets/passport.jpg";
 import Header from "./Header";
 import Reveal from "./Reveal";
+import { FiExternalLink } from "react-icons/fi";
 
 const Hero = () => {
   const [isMenu, setMenu] = useState(false);
+  const resumeLink =
+    "https://drive.google.com/file/d/1l-7BieKzcuXazYwhz95_MS0x-w-btZhj/view?usp=drive_link";
+
   return (
     <div className="maxW padX pt-8 pb-12">
       <Header isMenu={isMenu} setMenu={setMenu} />
@@ -36,6 +41,16 @@ const Hero = () => {
             <span className="block">
               Also constantly trying to improve my expertise in Web development.
             </span>
+          </Reveal>
+          <Reveal>
+            <div className="w-full mt-2 flex flex-col after:inline-block after:w-full after:h-0.5 after:bg-black text-xl md:text-2xl">
+              <span className="flex items-center gap-x-2">
+                <Link to={resumeLink} target="_blank" rel="noopener noreferrer">
+                  See Resume
+                </Link>
+                <FiExternalLink />
+              </span>
+            </div>
           </Reveal>
         </div>
       </div>

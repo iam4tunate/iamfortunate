@@ -1,44 +1,55 @@
-import { BsSendFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 import Reveal from "./Reveal";
 
 const Footer = () => {
+  const emailAddress = "ogodu4tunate@gmail.com";
+  const whatsappLink = "https://wa.me/+2348061754564";
+  const mailtoLink = `mailto:${emailAddress}}`;
+  const resumeLink =
+    "https://drive.google.com/file/d/1l-7BieKzcuXazYwhz95_MS0x-w-btZhj/view?usp=drive_link";
+
   return (
     <footer className="bg-black text-gainsboro">
-      <div className="maxW padX py-12">
-        <div className="w-[60%] max-md:w-[70%] max-sm:w-[90%] max-xs:w-full">
+      <div className="py-4 maxW padX grid grid-cols-3 items-center max-lg:grid-cols-2 max-sm:grid-cols-1 gap-x-8 max-lg:gap-y-5 max-sm:gap-y-7 max-sm:px-6 text-sm uppercase">
+        <div className="text-lg">
+          <Reveal>I&apos;d Love to hear from you.</Reveal>
+        </div>
+
+        <div className="max-lg:col-start-1 max-lg:col-end-2 max-sm:row-start-2 max-sm:row-end-3">
           <Reveal>
-            <div className="text-3xl font-neueMedium">
-              I&apos;d love to hear from you
-            </div>
-          </Reveal>
-          <Reveal>
-            <p className="pt-3 pb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              a excepturi atque earum! Iusto placeat nisi deserunt sequi
-              recusandae.
-            </p>
-          </Reveal>
-          <Reveal width>
-            <form className="flex flex-col gap-y-4 text-sm">
-              <input
-                type="text"
-                placeholder="Email Address"
-                className="py-3 px-4 outline-none border border-gainsboro bg-transparent rounded-md"
-              />
-              <textarea
-                placeholder="Message"
-                className="resize-none h-52 outline-none py-3 px-4 border border-gainsboro bg-transparent rounded-md"
-              />
-              <div className="border bg-gainsboro text-black py-3.5 px-4 flex items-center justify-between rounded-md cursor-pointer">
-                <span className="font-neueMedium">Send Message</span>
-                <BsSendFill className="text-black text-xl" />
-              </div>
-            </form>
+            <ul className="flex items-center gap-x-8">
+              <li className="after:w-full after:h-[1px] after:inline-block after:bg-gainsboro flex flex-col gap-y-0.5">
+                <Link to={mailtoLink} target="_blank" rel="noopener noreferrer">
+                  Email
+                </Link>
+              </li>
+              <li className="after:w-full after:h-[1px] after:inline-block after:bg-gainsboro flex flex-col gap-y-0.5">
+                <Link to={resumeLink} target="_blank" rel="noopener noreferrer">
+                  Resume
+                </Link>
+              </li>
+              <li className="after:w-full after:h-[1px] after:inline-block after:bg-gainsboro flex flex-col gap-y-0.5">
+                <Link
+                  to={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Whatsapp
+                </Link>
+              </li>
+            </ul>
           </Reveal>
         </div>
-      </div>
-      <div className="padX py-3 text-sm text-gainsboro flex items-center justify-end">
-        <span className="font-neueMedium opacity-70">Iamfortunate 2023</span>
+
+        <div className="max-lg:col-start-2 max-lg:col-end-3 max-sm:row-start-3 max-sm:row-end-4 max-sm:col-start-1 max-sm:col-end-2 flex justify-end max-sm:justify-start max-sm:text-xs">
+          <Reveal>
+            <div className="flex items-center gap-x-2">
+              <span>iamfortunate</span>
+              <span className="w-4 h-[1px] bg-gainsboro inline-block" />
+              <span>2024</span>
+            </div>
+          </Reveal>
+        </div>
       </div>
     </footer>
   );

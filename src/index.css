@@ -52,4 +52,8 @@
     right: 17px;
     position: absolute;
   }
+  /* .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  } */
 }
