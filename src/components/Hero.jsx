@@ -26,7 +26,7 @@ const Hero = () => {
           <img
             src={PASSPORT}
             alt=""
-            className="grayscale h-[15rem] max-sm:h-[13rem] sm:w-[30rem] max-sm:w-[100vw] object-cover object-top mt-4"
+            className="grayscale h-[18rem] max-sm:h-[13rem] sm:w-[30rem] max-sm:w-[100vw] object-cover object-top mt-4"
           />
         </Reveal>
         <div className="sm:w-[90%] md:w-[80%] lg:w-[70%] w-full ml-auto leading-snug pt-12 space-y-5 text-[35px] max-lg:text-3xl max-md:text-2xl max-lg:leading-normal">
