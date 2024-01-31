@@ -110,14 +110,14 @@ const Slider = ({ heading, data, website }) => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <Reveal>
+        {/* <Reveal>
           {website && (
             <div className="text-sm font-neueMedium opacity-60 px-2 pt-6 sm:w-[80%] lg:w-[60%] w-full">
               Disclamer: I drew inspiration and incorporated design elements
               from the Figma community into some of these websites.
             </div>
           )}
-        </Reveal>
+        </Reveal> */}
       </div>
     </div>
   );
