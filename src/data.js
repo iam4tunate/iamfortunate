@@ -1,4 +1,4 @@
-import FILMPULSE from "./assets/filmpulse.png";
+import FILMPULSE from "./assets/filmpulse.png"
 import SLEEKEASY from "./assets/sleekeasy.png";
 import APPLE_CLONE from "./assets/apple-clone.png";
 import SHOPPR from "./assets/shoppr.png";
@@ -6,6 +6,7 @@ import EDIE from "./assets/edie.png";
 import BU from "./assets/B-U.png";
 import ARMOURONE from "./assets/Armourone.png";
 import ARMOURONE_COMING from "./assets/Armourone-coming.png";
+import TESLAR_CARS from './assets/Teslar-Cars.png'
 
 export const webApps = [
   {
@@ -19,7 +20,7 @@ export const webApps = [
     id: 2,
     img: BU,
     name: "B-U",
-    desc: "A web app showcasing the latest trends & products of a fashion brand",
+    desc: "An e-commerce web app showcasing the latest trends & products of a fashion brand",
     url: "https://b-uu.netlify.app/",
   },
   {
@@ -38,6 +39,13 @@ export const websites = [
     name: "Sleekeasy",
     desc: "A platform which takes care of all your fashion bookings",
     url: "https://sleekeasy.netlify.app/",
+  },
+  {
+    id: 1,
+    img: TESLAR_CARS,
+    name: "Teslar-cars",
+    desc: "A website for a car manufacturing company",
+    url: "https://teslar-cars.netlify.app/",
   },
   {
     id: 2,

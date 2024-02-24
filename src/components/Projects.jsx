@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="w-fit ml-auto ">
         <Reveal>
           <div className="pb-8 max-sm:pb-10 text-3xl max-sm:text-2xl flex flex-col font-neueMedium after:bg-black after:w-full after:h-0.5 after:block after:mt-1">
-            Recent Projects
+            Featured Projects
           </div>
         </Reveal>
       </div>
