@@ -14,7 +14,7 @@ export const webApps = [
     img: FILMPULSE,
     name: "Filmpulse",
     desc: "A compelling React web app delivering comprehensive movie details",
-    url: "https://filmpulse1.netlify.app/",
+    url: "https://filmpulse.vercel.app/",
   },
   {
     id: 2,
